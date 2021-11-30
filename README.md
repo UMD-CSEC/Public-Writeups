@@ -1,2 +1,5 @@
-# Public-Writeups
-Public writeups from members of UMDCSEC
+# UMDCSEC Writeups
+
+## 2021
+
+- [HTB-Uni Qualifier](./HTBUni-Quals-2021/) (7th place)
