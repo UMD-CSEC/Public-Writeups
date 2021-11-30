@@ -5,6 +5,8 @@ Writeups for HTB UniCTF 2021 Quals
 
 18/29 total challenge solves
 
+---
+
 **Crypto**:
 - [Waiting List](crypto-waiting-list) (itsecgary)
 - [Space Pirates](crypto-space-pirates) (itsecgary) 
@@ -37,6 +39,8 @@ Writeups for HTB UniCTF 2021 Quals
 **Hardware**:
 - [Out of Time](hw-out-of-time) (srikavin)
 - [Mechanical Madness](hw-mechanical-madness) (srikavin + itsecgary)
+
+---
 
 ## Authors
 
