@@ -5,17 +5,6 @@ Writeups for HTB UniCTF 2021 Quals
 
 18/29 total challenge solves
 
-Authors:
-
-- [birch](https://github.com/aldenschmidt)
-- [itsecgary](https://github.com/itsecgary)
-- [artemis19](https://github.com/artemis19)
-- [srikavin](https://github.com/srikavin)
-- [triacontakai](https://github.com/triacontakai)
-- [jason](https://github.com/notjasonl)
-- [SumitNawathe](https://github.com/SumitNawathe)
-
-
 **Crypto**:
 - [Waiting List](crypto-waiting-list) (itsecgary)
 - [Space Pirates](crypto-space-pirates) (itsecgary) 
@@ -48,3 +37,13 @@ Authors:
 **Hardware**:
 - [Out of Time](hw-out-of-time) (srikavin)
 - [Mechanical Madness](hw-mechanical-madness) (srikavin + itsecgary)
+
+## Authors
+
+- [birch](https://github.com/aldenschmidt)
+- [itsecgary](https://github.com/itsecgary)
+- [artemis19](https://github.com/artemis19)
+- [srikavin](https://github.com/srikavin)
+- [triacontakai](https://github.com/triacontakai)
+- [jason](https://github.com/notjasonl)
+- [SumitNawathe](https://github.com/SumitNawathe)
