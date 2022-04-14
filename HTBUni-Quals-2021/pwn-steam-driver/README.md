@@ -43,7 +43,7 @@ Each compartment is "attached" to an engine through the use of a pointer to the 
     }
 ```
 
-An astute observer might notice that it's possible to have the logs pointer initialized but never freed if an invalid name pointer is provided (which causes `copy_from_user`) to fail. It's questionable whether this is of any use, but nonetheless we'll keep it in mind.
+An astute observer might notice that it's possible to have the logs pointer initialized but never freed if an invalid name pointer is provided (which causes `copy_from_user` to fail). It's questionable whether this is of any use, but nonetheless we'll keep it in mind.
 
 At the start of the `add_engine` function and the end of the `add_compartment` function, there is a call to the `automated_engine_shutdown` function:
 ```c=
