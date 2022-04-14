@@ -115,9 +115,9 @@ Now, the question is what we can actually do with this. It wouldn't really be us
 
 * engine_t:      56  bytes (kmalloc-64)
 * compartment_t: 128 bytes (kmalloc-128)
-* log buffer:    256 bytes (kmalloc-256)
+* log buffer:    128 bytes (kmalloc-128)
 
-Unfortunately, all of the structs are in separate kmalloc slabs. We'll need to look at kernel structs to see what we can do. Luckily, there's a pretty nice blog post that has candidates for the various slab sizes: https://ptr-yudai.hatenablog.com/entry/2020/03/16/165628
+Even though compartment_t and log buffer are in the same kmalloc slab, it doesn't seem like we'll be able to do anything useful with either of them. We'll need to look at kernel structs to see what we can do. Luckily, there's a pretty nice blog post that has candidates for the various slab sizes: https://ptr-yudai.hatenablog.com/entry/2020/03/16/165628
 
 We've only really got one candidate for kmalloc-64. I tried very hard to find other potential structs through the use of codeQL, but couldn't find much of use (although there might be, don't take my word for it!). That leaves us with the `msg_msg` struct (taken straight from https://elixir.bootlin.com/linux/v5.14/source/include/linux/msg.h#L9):
 
